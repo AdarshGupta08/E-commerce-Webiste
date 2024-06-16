@@ -1,0 +1,72 @@
+body {
+  font-family: 'Quicksand', sans-serif; 
+    background-image: url(./wp10661495.webp);
+    background-size: cover;
+    background-repeat:no-repeat ;
+  }
+  
+  .container {
+    width: 600px;
+    margin: auto;
+    background-color:#f1f3f7d8;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.423);
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 20px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  label::before{
+    content: "*";
+    color: red;
+    font-size: 20px;
+  }
+  
+  input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(79, 179, 209, 0.806);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+  
+  input[type="submit"]:hover {
+    background-color:rgb(9, 9, 9);
+  }
+
+  p {
+    margin: 5px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight:bolder;
+  }
+  span{
+  color: red;
+  font-weight: bold;
+  }
+ 

@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(78, 2, 80, 0.879);
+    padding: 20px;
+    width: 500px;
+}
+
+h2 {
+    color: #662d91;
+    text-align: center;
+}
+
+.box {
+    color: #662d91;
+    border: 1px solid #662d91;
+}
+
+#user,
+div {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #662d91;
+}
+
+#btn {
+    text-align: center;
+}
+
+button {
+    background-color: #087f30;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: red;
+}
+
+#cancel{
+    background-color:black;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+a{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #2196f3;
+    text-decoration: none;
+}
+
+#user {
+    position: relative;
+}
+
+span {
+    color: red;
+}
+
+#cont>form>a {
+    cursor: pointer;
+}
+
+/* to add logo ? 
+1) open "font awesome" in google
+2) Then sign in , in the account 
+3) the click on the free kit
+4) there is an a Script tag copy that Script tag and paste in the Head tag
+*/
